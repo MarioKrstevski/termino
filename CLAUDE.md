@@ -242,7 +242,7 @@ export async function POST(req: Request) {
 ```
 
 ### Supabase client selection
-| Where | Import f rom |
+| Where | Import from |
 |---|---|
 | Server Component / Route Handler | `lib/supabase/server.ts` |
 | Client Component | `lib/supabase/client.ts` |
