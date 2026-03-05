@@ -2,15 +2,15 @@
   "crons": [
     {
       "path": "/api/cron/reminders",
-      "schedule": "0 * * * *"
+      "schedule": "0 9 * * *"
     },
     {
       "path": "/api/cron/no-show",
-      "schedule": "*/15 * * * *"
+      "schedule": "0 23 * * *"
     },
     {
       "path": "/api/cron/review-request",
-      "schedule": "0 */6 * * *"
+      "schedule": "0 20 * * *"
     }
   ]
 }
